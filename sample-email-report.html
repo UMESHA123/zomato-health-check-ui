@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentinel Health Report</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f3f7fb;font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;color:#1e293b;">
+  <div style="max-width:960px;margin:0 auto;padding:32px 16px;">
+
+    <!-- Header -->
+    <div style="background:linear-gradient(135deg,#3b82f6 0%,#2563eb 100%);border-radius:20px;padding:32px;margin-bottom:32px;color:#ffffff;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <div style="font-size:24px;font-weight:700;letter-spacing:-0.5px;">Sentinel Health Report</div>
+            <div style="font-size:13px;opacity:0.85;margin-top:6px;">Saturday, 12 April 2026, 02:45 pm</div>
+          </td>
+          <td style="text-align:right;vertical-align:top;">
+            <div style="display:inline-block;background:rgba(255,255,255,0.2);border-radius:12px;padding:12px 20px;text-align:center;">
+              <div style="font-size:28px;font-weight:700;">92.7%</div>
+              <div style="font-size:11px;opacity:0.9;margin-top:2px;">Health Rate</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+        <tr>
+          <td style="width:25%;text-align:center;background:rgba(255,255,255,0.15);border-radius:10px;padding:10px;">
+            <div style="font-size:20px;font-weight:700;">41</div>
+            <div style="font-size:10px;opacity:0.8;margin-top:2px;">Endpoints</div>
+          </td>
+          <td style="width:4px;"></td>
+          <td style="width:25%;text-align:center;background:rgba(255,255,255,0.15);border-radius:10px;padding:10px;">
+            <div style="font-size:20px;font-weight:700;">38</div>
+            <div style="font-size:10px;opacity:0.8;margin-top:2px;">Healthy</div>
+          </td>
+          <td style="width:4px;"></td>
+          <td style="width:25%;text-align:center;background:rgba(255,255,255,0.15);border-radius:10px;padding:10px;">
+            <div style="font-size:20px;font-weight:700;">3</div>
+            <div style="font-size:10px;opacity:0.8;margin-top:2px;">Failed</div>
+          </td>
+          <td style="width:4px;"></td>
+          <td style="width:25%;text-align:center;background:rgba(255,255,255,0.15);border-radius:10px;padding:10px;">
+            <div style="font-size:20px;font-weight:700;">8.4s</div>
+            <div style="font-size:10px;opacity:0.8;margin-top:2px;">Duration</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Service Health Cards -->
+    <h2 style="font-size:18px;font-weight:700;color:#1e293b;margin:0 0 16px 0;">Service Health Overview</h2>
+    <table width="100%" cellpadding="0" cellspacing="0">
+      <!-- Row 1: 4 Frontend cards -->
+      <tr>
+        <!-- Customer Frontend -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0e7ff;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Customer Frontend</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Frontend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Restaurant Frontend -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0e7ff;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Restaurant Frontend</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Frontend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Driver Frontend -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0e7ff;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Driver Frontend</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Frontend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Support Frontend -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0e7ff;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Support Frontend</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Frontend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <!-- Row 2: Backend + Infrastructure + Catalog -->
+      <tr>
+        <!-- Platform Backend -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0f2fe;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="5" width="16" height="14" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Platform Backend</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Backend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">75.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">25.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">8</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">6</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">2</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Customer Backend Health -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#e0f2fe;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="5" width="16" height="14" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Customer Backend Health</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Backend</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">1</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Infrastructure -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#ffedd5;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1" fill="#ea580c"/><circle cx="6" cy="18" r="1" fill="#ea580c"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Infrastructure</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Infrastructure</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">75.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">25.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">4</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">3</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">1</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+
+        <!-- Endpoint Catalog -->
+        <td style="width:25%;padding:8px;vertical-align:top;">
+          <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;position:relative;overflow:hidden;">
+            <div style="position:absolute;top:12px;right:-30px;transform:rotate(45deg);background:#f1f5f9;padding:2px 32px;font-size:8px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#94a3b8;border:1px solid #e2e8f0;">CATALOG</div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div style="width:40px;height:40px;border-radius:12px;background:#f1f5f9;display:flex;align-items:center;justify-content:center;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="1.8" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>
+              </div>
+              <div>
+                <div style="font-size:16px;font-weight:700;color:#1e293b;line-height:1.3;">Endpoint Catalog</div>
+                <div style="font-size:11px;color:#94a3b8;text-transform:capitalize;">Catalog</div>
+              </div>
+            </div>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              <tr>
+                <td style="width:50%;padding-right:4px;">
+                  <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#16a34a;">Success</div>
+                    <div style="font-size:20px;font-weight:700;color:#15803d;margin-top:4px;">100.0%</div>
+                  </div>
+                </td>
+                <td style="width:50%;padding-left:4px;">
+                  <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:12px;padding:10px 12px;">
+                    <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#dc2626;">Error</div>
+                    <div style="font-size:20px;font-weight:700;color:#b91c1c;margin-top:4px;">0.0%</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div style="border-top:1px solid #f1f5f9;padding-top:12px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#94a3b8;">Total</div><div style="font-size:18px;font-weight:700;color:#334155;margin-top:2px;">25</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#10b981;">Pass</div><div style="font-size:18px;font-weight:700;color:#059669;margin-top:2px;">25</div></td>
+                  <td style="text-align:center;width:33%;"><div style="font-size:11px;color:#ef4444;">Fail</div><div style="font-size:18px;font-weight:700;color:#dc2626;margin-top:2px;">0</div></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Failed Endpoints -->
+    <div style="margin-top:32px;">
+      <h2 style="font-size:18px;font-weight:700;color:#1e293b;margin:0 0 16px 0;">Failed Endpoints (3)</h2>
+      <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;overflow:hidden;">
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <thead>
+            <tr style="background:#f8fafc;">
+              <th style="padding:10px 16px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;font-weight:600;">Endpoint</th>
+              <th style="padding:10px 16px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;font-weight:600;">Component</th>
+              <th style="padding:10px 16px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;font-weight:600;">Status</th>
+              <th style="padding:10px 16px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;font-weight:600;">Error</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:13px;font-weight:600;color:#334155;">Notification service health</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#64748b;">Platform Backend</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;">
+                <span style="background:#fef2f2;color:#dc2626;border:1px solid #fecaca;border-radius:999px;padding:2px 10px;font-size:10px;font-weight:700;">UNHEALTHY</span>
+              </td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#ef4444;">fetch failed: ECONNREFUSED 172.20.0.8:8086</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:13px;font-weight:600;color:#334155;">Chat service health</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#64748b;">Platform Backend</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;">
+                <span style="background:#fef2f2;color:#dc2626;border:1px solid #fecaca;border-radius:999px;padding:2px 10px;font-size:10px;font-weight:700;">UNHEALTHY</span>
+              </td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#ef4444;">fetch failed: ECONNREFUSED 172.20.0.9:8087</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:13px;font-weight:600;color:#334155;">MongoDB port availability</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#64748b;">Infrastructure</td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;">
+                <span style="background:#fef2f2;color:#dc2626;border:1px solid #fecaca;border-radius:999px;padding:2px 10px;font-size:10px;font-weight:700;">UNHEALTHY</span>
+              </td>
+              <td style="padding:10px 16px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#ef4444;">TCP timeout</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-top:40px;text-align:center;padding:20px;border-top:1px solid #e2e8f0;">
+      <div style="font-size:12px;color:#94a3b8;">
+        Generated by <strong style="color:#3b82f6;">Sentinel Monitor</strong> &mdash; Zomato Clone Health Check System
+      </div>
+      <div style="font-size:11px;color:#cbd5e1;margin-top:6px;">
+        Run ID: a3f8c921-7b4e-4d1a-92cf-1e8d3f5a6b7c &bull; 2026-04-12T14:45:32.000Z
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

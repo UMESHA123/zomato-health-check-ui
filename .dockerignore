@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+
+# CI/CD
+Jenkinsfile
+.github/
+cicd/
+
+# IDE
+.idea/
+.vscode/
+
+# Dependencies (reinstalled in Docker)
+node_modules/
+
+# Build (rebuilt in Docker)
+dist/
+build/
+.next/
+out/
+
+# Test
+coverage/
+.nyc_output/
+**/*.test.ts
+**/*.spec.ts
+__tests__/
+
+# Docs
+*.md
+LICENSE
+
+# OS
+.DS_Store
+
+# Environment
+.env*
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
